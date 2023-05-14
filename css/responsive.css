@@ -8,7 +8,7 @@
         background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
         color: white;
         font-family: 'Roboto';
-        background-size: cover;
+        background-size: inherit;
         background-repeat: no;
     }
 
@@ -312,7 +312,7 @@
         background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
         color: white;
     font-family: 'Roboto';
-    background-size: cover;
+    background-size: inherit;
     background-repeat: no;
     }
 
@@ -638,7 +638,7 @@
         background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
         color: white;
     font-family: 'Roboto';
-    background-size: cover;
+    background-size: inherit;
     background-repeat: no;
     }
 
@@ -902,8 +902,8 @@
         background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
         color: white;
         font-family: 'Roboto';
-        background-size: cover;
-        background-repeat: no;
+    background-size: inherit;
+    background-repeat: no;
     }
 
     .body {
@@ -1163,11 +1163,9 @@
 /* Mobile M */
     {
     .html {
+        background-repeat: no-repeat;
+        background-size: inherit;
         background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
-        color: white;
-        font-family: 'Roboto';
-        background-size: cover;
-        background-repeat: no;
     }
 
     .body {
