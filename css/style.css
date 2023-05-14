@@ -49,7 +49,7 @@
     color: white;
     text-decoration: none;
 }
-.main-logo-txt>a[href="/index.html"] {
+.main-logo-txt>a[href="index.html"] {
     color: white;
     text-decoration: none;
 }
