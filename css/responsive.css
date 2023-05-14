@@ -1,0 +1,1329 @@
+
+@media only screen and (max-width: 1080px)
+
+/* Laptop S */
+    {
+
+    .html {
+        background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
+    }
+
+    .body {
+        margin: 0px;
+    }
+
+    /* Starting of CSS of header in body */
+
+    .nav-bound {
+        display: flex;
+        align-items: center;
+        background-color: rgba(211, 211, 211, 0.367);
+        box-shadow: -4px 2px 16px -5px rgba(0, 0, 0, 0.69);
+    }
+
+    /* CSS of logo in navigation-bar */
+
+    .nav-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo>a>img {
+        height: 75px;
+        padding-left: 25px;
+        padding-top: 5px;
+    }
+
+    .main-logo-txt {
+        padding-left: 5px;
+        font-family: 'Roboto';
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        text-shadow: 4px 2px 9px rgba(0, 0, 0, 0.18);
+        display: none;
+    }
+
+    .main-logo-txt>a[href="index.html"] {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* CSS of main tab in navigation bar */
+
+    .nav-main-tabs {
+        display: flex;
+        margin-left: auto;
+        padding-right: 20px;
+    }
+
+    .nav-tabs {
+        padding-left: 20px;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .nav-item:hover {
+        color: yellow;
+    }
+
+    /* CSS of action tabs in navigation bar */
+
+    .nav-action-tabs {
+        display: flex;
+        padding-right: 20px;
+    }
+
+    .ac-tab {
+        padding-left: 8px;
+    }
+
+    .ac-item>img {
+        height: 40px;
+        padding-top: 3px;
+    }
+
+    /* Ending of CSS of header in body */
+
+    /* Starting of CSS of main in body */
+
+    .body-main {
+        background-color: transparent;
+    }
+
+    .main-container {
+        display: block;
+        padding-top: 0px;
+    }
+
+    .main-txt {
+        display: block;
+    }
+
+    .para {
+        font-family: 'Roboto';
+        color: white;
+        letter-spacing: 1px;
+        font-size: 26px;
+        margin: 0px;
+        word-spacing: 1px;
+        padding-left: 60px;
+        padding-top: 60px;
+    }
+
+    .para-sp1 {
+        font-weight: bolder;
+        font-size: 40px;
+        word-spacing: 2px;
+    }
+
+    .para-sp2 {
+        font-weight: bolder;
+        font-size: 40px;
+        word-spacing: 2px;
+    }
+
+    .para-sp3 {
+        font-weight: 500;
+        font-size: 35px;
+        word-spacing: 2px;
+    }
+
+    .work-navbar {
+        display: flex;
+        padding-top: 50px;
+    }
+
+    .wnb-list {
+        color: white;
+        font-size: 30px;
+        list-style-type: square;
+        text-align: left;
+    }
+
+    .wnb-div>a[href="work.html"] {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    .wnb-list>li>a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    .wnb-list>li>a:hover {
+        color: rgb(161, 161, 255);
+    }
+
+    .my-photo>img {
+        height: 420px;
+        padding-right: 0px;
+    }
+
+    .my-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    /* Ending of CSS of main in body */
+
+    /* Starting of CSS of footer in body */
+
+    .footer {
+        display: block;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .footer-bound {
+        display: flex;
+        background-color: rgba(0, 255, 255, 0.256);
+        padding: 21px;
+        align-items: center;
+        box-shadow: 0px -12px 14px -13px rgba(0, 0, 0, 0.658);
+    }
+
+    .ft-tab-contact {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .ft-item>a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        letter-spacing: 1px;
+    }
+
+    .ft-tab-contact {
+        padding-right: 20px;
+    }
+
+    .ft-item>a:hover {
+        color: yellow;
+    }
+
+    .rights>a:hover {
+        color: white !important;
+    }
+
+    /* Ending of CSS of footer in body */
+
+/* --------------------------------------------- about pages --------------------------------- */
+
+    .ab-nav-list-cont {
+        margin-top: 20px;
+    }
+    .ab-li-div {
+        padding-left: 18px;
+    }
+    .ab-li {
+        font-size: 15px;
+    }
+    .ab-li::marker {
+        font-size: 20px;
+    }
+    .main-intro-cont {
+        margin-top: 15px;
+    }
+    .intro-pre {
+       font-size: 15px;
+    }
+    .intro-imp {
+        font-size: 18px;
+    }
+    .intro-photo>img {
+        width: 250px;
+    }
+    .main-edu-cont {
+        padding: 30px;
+    }
+    .table {
+        font-size: 20px;
+    }
+    .th {
+        padding: 10px;
+    }
+    .td {
+        padding: 10px;
+    }
+    .main-tech-cont {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .tech-sec {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .icon-img {
+        width: 50px;
+    }
+    .la-1 {
+        font-size: 15px;
+    }
+    .main-hob-cont {
+        margin-top: 30px;
+    }
+    .hob-item>a {
+        font-size: 25px;
+        padding-left: 50px;
+    }
+    .hob-item>p {
+        font-size: 22px;
+        padding-left: 50px;
+        padding-right: 40px;
+    }
+    
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 769px)
+
+/* Tablets */
+    {
+
+    .html {
+        background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
+    }
+
+    .body {
+        margin: 0px;
+    }
+
+    /* Starting of CSS of header in body */
+
+    .nav-bound {
+        display: flex;
+        align-items: center;
+        background-color: rgba(211, 211, 211, 0.367);
+        box-shadow: -4px 2px 16px -5px rgba(0, 0, 0, 0.69);
+        padding: 10px;
+    }
+
+    /* CSS of logo in navigation-bar */
+
+    .nav-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo>a>img {
+        height: 50px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .main-logo-txt {
+        padding-left: 5px;
+        font-family: 'Roboto';
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        text-shadow: 4px 2px 9px rgba(0, 0, 0, 0.18);
+        display: none;
+    }
+
+    .main-logo-txt>a[href="index.html"] {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* CSS of main tab in navigation bar */
+
+    .nav-main-tabs {
+        display: flex;
+        margin-left: auto;
+        padding-right: 8px;
+    }
+
+    .nav-tabs {
+        padding-left: 10px;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .nav-item:hover {
+        color: yellow;
+    }
+
+    .nav-tab-home {
+        display: none;
+    }
+
+    /* CSS of action tabs in navigation bar */
+
+    .nav-action-tabs {
+        display: flex;
+        padding-right: 20px;
+    }
+
+    .ac-tab {
+        padding-left: 8px;
+    }
+
+    .ac-item>img {
+        height: 30px;
+        padding-top: 3px;
+    }
+
+    .nav-ac-insta {
+        display: none;
+    }
+
+    .nav-ac-facebook {
+        display: none;
+    }
+
+    /* Ending of CSS of header in body */
+
+    /* Starting of CSS of main in body */
+
+    .body-main {
+        background-color: transparent;
+    }
+
+    .main-container {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .main-txt {
+        display: block;
+    }
+
+    .para {
+        font-family: 'Roboto';
+        color: white;
+        letter-spacing: 1px;
+        font-size: 20px;
+        margin: 0px;
+        word-spacing: 1px;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    .para-sp1 {
+        font-weight: bolder;
+        font-size: 35px;
+        word-spacing: 2px;
+    }
+
+    .para-sp2 {
+        font-weight: bolder;
+        font-size: 35px;
+        word-spacing: 2px;
+    }
+
+    .para-sp3 {
+        font-weight: 500;
+        font-size: 33px;
+        word-spacing: 2px;
+    }
+
+    .work-navbar {
+        display: flex;
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    .wnb-list {
+        color: white;
+        font-size: 28px;
+        list-style-type: square;
+        text-align: left;
+    }
+
+    .wnb-div>a[href="work.html"] {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    .wnb-list>li>a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    .wnb-list>li>a:hover {
+        color: rgb(161, 161, 255);
+    }
+
+    .my-photo>img {
+        height: 400px;
+    }
+
+    .my-photo {
+        display: flex;
+        margin-left: auto;
+    }
+
+    /* Ending of CSS of main in body */
+
+    /* Starting of CSS of footer in body */
+
+    .footer {
+        display: block;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .footer-bound {
+        display: flex;
+        background-color: rgba(0, 255, 255, 0.256);
+        padding: 15px;
+        align-items: center;
+        box-shadow: 0px -12px 14px -13px rgba(0, 0, 0, 0.658);
+    }
+
+    .ft-tab-contact {
+        display: flex;
+        margin-left: auto;
+        margin-top: 5px;
+    }
+
+    .ft-item>a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        letter-spacing: 1px;
+        font-size: xx-small;
+    }
+
+    .ft-tab-contact {
+        padding-right: 20px;
+    }
+
+    .ft-item>a:hover {
+        color: yellow;
+    }
+
+    .rights>a:hover {
+        color: white !important;
+    }
+
+    /* Ending of CSS of footer in body */
+
+
+    /* --------------------------------------------- about pages --------------------------------- */
+
+.ab-nav-list-cont {
+    margin-top: 10px;
+}
+.ab-li-div {
+    padding-left: 10px;
+}
+.ab-li {
+    font-size: 10px;
+}
+.ab-li::marker {
+    font-size: 10px;
+}
+.ab-nav-exp {
+    display: none;
+}
+.ab-nav-tech {
+    display: none;
+}
+.ab-nav-tech {
+    padding-left: 0px;
+}
+.ab-nav-exp {
+    padding-left: 0px;
+}
+.ab-nav-hob {
+    padding-left: 0px;
+}
+.ab-nav-edu {
+    padding-left: 20px;
+}
+.main-intro-cont {
+    margin-top: 10px;
+}
+.main-intro-p {
+    margin-left: 15px;
+}
+.intro-pre {
+   font-size: 9px;
+}
+.intro-imp {
+    font-size: 10px;
+}
+.intro-p-cont-3{
+    display: none;
+}
+.intro-photo>img {
+    width: 100px;
+}
+.main-edu-cont {
+    padding: 10px;
+}
+.table {
+    font-size: 12px;
+    margin-top: 30px;
+}
+.th {
+    padding: 8px;
+}
+.td {
+    padding: 8px;
+}
+.main-hob-cont {
+    margin-top: 40px;
+}
+.hob-item>a {
+    font-size: 18px;
+    padding-left: 30px;
+}
+.hob-item>p {
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+}
+
+/* CSS for mobiles */
+
+@media only screen and (max-width: 426px)
+
+/* Mobile L */
+    {
+    .html {
+        background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
+    }
+
+    .body {
+        margin: 0px;
+    }
+
+    /* Starting of CSS of header in body */
+
+    .nav-bound {
+        display: flex;
+        align-items: center;
+        background-color: rgba(211, 211, 211, 0.367);
+        box-shadow: -4px 2px 16px -5px rgba(0, 0, 0, 0.69);
+        padding: 5px;
+    }
+
+    /* CSS of logo in navigation-bar */
+
+    .nav-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo>a>img {
+        height: 35px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .main-logo-txt {
+        display: none;
+    }
+
+    /* CSS of main tab in navigation bar */
+
+    .nav-main-tabs {
+        display: flex;
+        margin-left: auto;
+        padding-right: 10px;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+
+    .nav-tab-home {
+        display: none;
+    }
+
+    .nav-tabs {
+        padding-left: 15px;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: x-small;
+    }
+
+    .nav-item:hover {
+        color: yellow;
+    }
+
+    /* CSS of action tabs in navigation bar */
+
+    .nav-action-tabs {
+        display: none;
+    }
+
+    /* Ending of CSS of header in body */
+
+    /* Starting of CSS of main in body */
+
+    .body-main {
+        background-color: transparent;
+    }
+
+    .main-container {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .main-txt {
+        display: block;
+    }
+
+    .para {
+        font-family: 'Roboto';
+        color: white;
+        letter-spacing: 1px;
+        font-size: 12px;
+        margin: 0px;
+        word-spacing: 1px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .para-sp1 {
+        font-weight: bolder;
+        font-size: 25px;
+        word-spacing: 2px;
+    }
+
+    .para-sp2 {
+        font-weight: bolder;
+        font-size: 25px;
+        word-spacing: 2px;
+    }
+
+    .para-sp3 {
+        font-weight: 500;
+        font-size: 20px;
+        word-spacing: 2px;
+    }
+
+    .work-navbar {
+        display: none;
+    }
+
+    .my-photo>img {
+        height: 340px;
+        padding-right: 0px;
+    }
+
+    .my-photo {
+        display: flex;
+        margin-left: auto;
+    }   
+
+    /* Ending of CSS of main in body */
+
+    /* Starting of CSS of footer in body */
+
+    .footer {
+        display: block;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .footer-bound {
+        display: flex;
+        background-color: rgba(0, 255, 255, 0.256);
+        padding: 15px;
+        align-items: center;
+        box-shadow: 0px -12px 14px -13px rgba(0, 0, 0, 0.658);
+    }
+
+    .ft-item>a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        letter-spacing: 1px;
+        font-size: x-small;
+    }
+
+    .ft-tab-contact {
+        display: none;
+    }
+
+    .mob-no {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .ft-item>a:hover {
+        color: yellow;
+    }
+
+    .rights>a:hover {
+        color: white !important;
+    }
+
+    /* Ending of CSS of footer in body */
+
+/* --------------------------------------------- about pages --------------------------------- */
+
+.ab-nav-list-cont {
+    margin-top: 10px;
+}
+.ab-li-div {
+    padding-left: 10px;
+}
+.ab-li {
+    font-size: 10px;
+}
+.ab-li::marker {
+    font-size: 10px;
+}
+.ab-nav-exp {
+    display: none;
+}
+.ab-nav-tech {
+    display: none;
+}
+.ab-nav-tech {
+    padding-left: 0px;
+}
+.ab-nav-exp {
+    padding-left: 0px;
+}
+.ab-nav-hob {
+    padding-left: 0px;
+}
+.ab-nav-edu {
+    padding-left: 20px;
+}
+.main-intro-cont {
+    margin-top: 10px;
+}
+.main-intro-p {
+    margin-left: 15px;
+}
+.intro-pre {
+   font-size: 9px;
+}
+.intro-imp {
+    font-size: 10px;
+}
+.intro-p-cont-3{
+    display: none;
+}
+.intro-photo>img {
+    width: 100px;
+}
+.main-edu-cont {
+    padding: 10px;
+}
+.table {
+    font-size: 12px;
+}
+.th {
+    padding: 8px;
+}
+.td {
+    padding: 8px;
+}
+.main-hob-cont {
+    margin-top: 40px;
+}
+.hob-item>a {
+    font-size: 18px;
+    padding-left: 30px;
+}
+.hob-item>p {
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+}
+
+@media only screen and (max-width: 375px)
+
+/* Mobile M and L */
+    {
+    .html {
+        background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
+    }
+
+    .body {
+        margin: 0px;
+    }
+
+    /* Starting of CSS of header in body */
+
+    .nav-bound {
+        display: flex;
+        align-items: center;
+        background-color: rgba(211, 211, 211, 0.367);
+        box-shadow: -4px 2px 16px -5px rgba(0, 0, 0, 0.69);
+        padding: 3px;
+    }
+
+    /* CSS of logo in navigation-bar */
+
+    .nav-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo>a>img {
+        height: 45px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .main-logo-txt {
+        display: none;
+    }
+
+    /* CSS of main tab in navigation bar */
+
+    .nav-main-tabs {
+        display: flex;
+        margin-left: auto;
+        padding-right: 10px;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+
+    .nav-tab-home {
+        display: none;
+    }
+
+    .nav-tabs {
+        padding-left: 15px;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: xx-small;
+    }
+
+    .nav-item:hover {
+        color: yellow;
+    }
+
+    /* CSS of action tabs in navigation bar */
+
+    .nav-action-tabs {
+        display: none;
+    }
+
+    /* Ending of CSS of header in body */
+
+    /* Starting of CSS of main in body */
+
+    .body-main {
+        background-color: transparent;
+    }
+
+    .main-container {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .main-txt {
+        display: block;
+    }
+
+    .para {
+        font-family: 'Roboto';
+        color: white;
+        letter-spacing: 1px;
+        font-size: 10px;
+        margin: 0px;
+        word-spacing: 1px;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+
+    .para-sp1 {
+        font-weight: bolder;
+        font-size: 22px;
+        word-spacing: 2px;
+    }
+
+    .para-sp2 {
+        font-weight: bolder;
+        font-size: 22px;
+        word-spacing: 2px;
+    }
+
+    .para-sp3 {
+        font-weight: 500;
+        font-size: 18px;
+        word-spacing: 2px;
+    }
+
+    .work-navbar {
+        display: none;
+    }
+
+    .my-photo>img {
+        height: 300px;
+        padding-right: 0px;
+    }
+
+    .my-photo {
+        display: flex;
+        margin-left: auto;
+    }
+
+    /* Ending of CSS of main in body */
+
+    /* Starting of CSS of footer in body */
+
+    .footer {
+        display: block;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .footer-bound {
+        display: flex;
+        background-color: rgba(0, 255, 255, 0.256);
+        padding: 7px;
+        align-items: center;
+        box-shadow: 0px -12px 14px -13px rgba(0, 0, 0, 0.658);
+    }
+
+    .ft-item>a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        letter-spacing: 1px;
+        font-size: xx-small;
+    }
+
+    .ft-tab-contact {
+        display: none;
+    }
+
+    .mob-no {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .ft-item>a:hover {
+        color: yellow;
+    }
+
+    .rights>a:hover {
+        color: white !important;
+    }
+
+    /* Ending of CSS of footer in body */
+
+    /* --------------------------------------------- about pages --------------------------------- */
+
+.ab-nav-list-cont {
+    margin-top: 10px;
+}
+.ab-li-div {
+    padding-left: 10px;
+}
+.ab-li {
+    font-size: 10px;
+}
+.ab-li::marker {
+    font-size: 10px;
+}
+.ab-nav-exp {
+    display: none;
+}
+.ab-nav-tech {
+    display: none;
+}
+.ab-nav-tech {
+    padding-left: 0px;
+}
+.ab-nav-exp {
+    padding-left: 0px;
+}
+.ab-nav-hob {
+    padding-left: 0px;
+}
+.ab-nav-edu {
+    padding-left: 15px;
+}
+.main-intro-cont {
+    margin-top: 10px;
+}
+.main-intro-p {
+    margin-left: 15px;
+}
+.intro-pre {
+   font-size: 9px;
+}
+.intro-imp {
+    font-size: 10px;
+}
+.intro-p-cont-3{
+    display: none;
+}
+.intro-photo>img {
+    width: 100px;
+}
+.main-edu-cont {
+    padding: 10px;
+    margin-top: 30px;
+}
+.table {
+    font-size: 12px;
+}
+.th {
+    padding: 8px;
+}
+.td {
+    padding: 8px;
+}
+.main-hob-cont {
+    margin-top: 40px;
+}
+.hob-item>a {
+    font-size: 18px;
+    padding-left: 30px;
+}
+.hob-item>p {
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+}
+
+@media only screen and (max-width: 320px)
+
+/* Mobile M */
+    {
+    .html {
+        background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
+    }
+
+    .body {
+        margin: 0px;
+    }
+
+    /* Starting of CSS of header in body */
+
+    .nav-bound {
+        display: flex;
+        align-items: center;
+        background-color: rgba(211, 211, 211, 0.367);
+        box-shadow: -4px 2px 16px -5px rgba(0, 0, 0, 0.69);
+    }
+
+    /* CSS of logo in navigation-bar */
+
+    .nav-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo>a>img {
+        height: 50px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .main-logo-txt {
+        display: none;
+    }
+
+    /* CSS of main tab in navigation bar */
+
+    .nav-main-tabs {
+        display: flex;
+        margin-left: auto;
+        padding-right: 8px;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+
+    .nav-tab-home {
+        display: none;
+    }
+
+    .nav-tabs {
+        padding-left: 10px;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: xx-small;
+    }
+
+    .nav-item:hover {
+        color: yellow;
+    }
+
+    /* CSS of action tabs in navigation bar */
+
+    .nav-action-tabs {
+        display: none;
+    }
+
+    /* Ending of CSS of header in body */
+
+    /* Starting of CSS of main in body */
+
+    .body-main {
+        background-color: transparent;
+    }
+
+    .main-container {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .main-txt {
+        display: block;
+    }
+
+    .para {
+        font-family: 'Roboto';
+        color: white;
+        letter-spacing: 1px;
+        font-size: 8px;
+        margin: 0px;
+        word-spacing: 1px;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+
+    .para-sp1 {
+        font-weight: bolder;
+        font-size: 18px;
+        word-spacing: 2px;
+    }
+
+    .para-sp2 {
+        font-weight: bolder;
+        font-size: 18px;
+        word-spacing: 2px;
+    }
+
+    .para-sp3 {
+        font-weight: 500;
+        font-size: 13px;
+        word-spacing: 2px;
+    }
+    .para-sp4 {
+        display: none;
+    }
+
+    .work-navbar {
+        display: none;
+    }
+
+    .my-photo>img {
+        height: 270px;
+        padding-right: 0px;
+    }
+
+    .my-photo {
+        display: flex;
+        margin-left: auto;
+    }
+
+    /* Ending of CSS of main in body */
+
+    /* Starting of CSS of footer in body */
+
+    .footer {
+        display: block;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .footer-bound {
+        display: flex;
+        background-color: rgba(0, 255, 255, 0.256);
+        padding: 7px;
+        align-items: center;
+        box-shadow: 0px -12px 14px -13px rgba(0, 0, 0, 0.658);
+    }
+
+    .ft-item>a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        letter-spacing: 1px;
+        font-size: xx-small;
+    }
+
+    .ft-tab-contact {
+        display: none;
+    }
+
+    .mob-no {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .ft-item>a:hover {
+        color: yellow;
+    }
+
+    .rights>a:hover {
+        color: white !important;
+    }
+
+    /* Ending of CSS of footer in body */
+}

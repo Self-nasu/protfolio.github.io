@@ -1,0 +1,377 @@
+.html {
+    background-image: url("https://media.discordapp.net/attachments/1106482974330998784/1106483313553715210/1.jpg?width=993&height=662");
+    color: white;
+    font-family: 'Roboto';
+    background-size: cover;
+    background-repeat: no;
+}
+
+.body {
+    margin: 0px;
+}
+
+/* Starting of CSS of header in body */
+
+.nav-bound {
+    display: flex;
+    align-items: center;
+    background-image: url(https://media.discordapp.net/attachments/1106483006023159879/1106483334000935004/nav.png?width=1000&height=562);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -4px 2px 16px -5px rgba(0, 0, 0, 0.69);
+}
+
+/* CSS of logo in navigation-bar */
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo>a>img {
+    height: 75px;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.main-logo-txt {
+    padding-left: 5px;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    text-shadow: 4px 2px 9px rgba(0, 0, 0, 0.18);
+}
+
+.main-logo-txt>a[href="index.html"] {
+    color: white;
+    text-decoration: none;
+}
+.main-logo-txt>a[href="/index.html"] {
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS of main tab in navigation bar */
+
+.nav-main-tabs {
+    display: flex;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.nav-tabs {
+    padding-left: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.nav-item:hover {
+    color: yellow;
+}
+
+.nav-tab-mywork {
+    display: none;
+}
+
+/* CSS of action tabs in navigation bar */
+
+.nav-action-tabs {
+    display: flex;
+    padding-right: 20px;
+}
+
+.ac-tab {
+    padding-left: 8px;
+}
+
+.ac-item>img {
+    height: 40px;
+    padding-top: 3px;
+}
+
+/* Ending of CSS of header in body */
+
+/* Starting of CSS of main in body */
+
+.body-main {
+    background-color: transparent;
+}
+
+.main-container {
+    display: flex;
+    padding-top: 40px;
+}
+
+.main-txt {
+    display: block;
+}
+
+.para {
+    font-family: 'Roboto';
+    color: white;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin: 0px;
+    word-spacing: 1px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.para-sp1 {
+    font-weight: bolder;
+    font-size: 40px;
+    word-spacing: 2px;
+}
+
+.para-sp2 {
+    font-weight: bolder;
+    font-size: 40px;
+    word-spacing: 2px;
+}
+
+.para-sp3 {
+    font-weight: 500;
+    font-size: 35px;
+    word-spacing: 2px;
+}
+
+.work-navbar {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.wnb-list {
+    color: white;
+    font-size: 30px;
+    list-style-type: square;
+    text-align: left;
+}
+
+.wnb-div {
+    padding-bottom: 20px;
+}
+
+.wnb-div>a[href="work.html"] {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.wnb-list>li>a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.wnb-list>li>a:hover {
+    color: rgb(161, 161, 255);
+}
+
+.my-photo>img {
+    height: 430px;
+    padding-right: 80px;
+}
+
+.my-photo {
+    display: flex;
+    margin-left: auto;
+}
+
+/* Ending of CSS of main in body */
+
+/* Starting of CSS of footer in body */
+
+.footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+.footer-bound {
+    display: flex;
+    background-image: url("https://media.discordapp.net/attachments/1106483006023159879/1106483334000935004/nav.png?width=1000&height=562");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 21px;
+    align-items: center;
+    box-shadow: 0px -12px 14px -13px rgba(0, 0, 0, 0.658);
+}
+
+.ft-tab-contact {
+    display: flex;
+    margin-left: auto;
+}
+
+.ft-item>a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+}
+
+.ft-tab-contact {
+    padding-right: 20px;
+}
+
+.ft-item>a:hover {
+    color: yellow;
+}
+
+.rights>a:hover {
+    color: white !important;
+}
+
+/* Ending of CSS of footer in body */
+
+
+/* ------------------------------------------------------------------------------------------
+                                ABOUT US PAGE CSS 
+-------------------------------------------------------------------------------------------- */
+
+.ab-nav-list-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.ab-li-div {
+    padding-left: 40px;
+    display: flex;
+}
+.ab-li {
+    list-style: circle;
+    font-size: 25px;
+}
+.ab-li::marker {
+    font-size: 35px;
+    align-items: center;
+}
+.ab-li>a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-shadow: 3px 4px 7px rgba(0,0,0,0.19);
+}
+
+/* other css of introduction,education,software skill,experience,hobbies 
+page are link differntly within them only along with there responsive styles*/
+
+/* -------------- intro page --------------------- */
+
+.main-intro-cont {
+    display: flex;
+    margin-top: 30px;
+}
+.main-intro-p {
+    margin-left: 30px;
+}
+.intro-pre {
+   font-size: 23px;
+   letter-spacing: 1px;
+}
+.intro-imp {
+    font-size: 25px;
+    font-weight: bold;
+}
+.intro-photo>img {
+    width: 420px;
+    margin-left: auto;
+    margin: 20px;
+}
+
+/* -------------- education page --------------------- */
+
+.main-edu-cont {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.table {
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 35px;
+}
+
+.th {
+    border: solid;
+    padding: 18px;
+}
+
+.td {
+    border: solid;
+    padding: 18px;
+}
+
+/* -------------- Tech skills page --------------------- */
+
+.main-tech-cont {
+    display: block;
+    align-content: center;
+    justify-content: left;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.tech-sec {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    word-spacing: 3px;
+}
+.icon-img {
+    width: 65px;
+    padding-left: 30px;
+}
+.la-1 {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* -------------- Exp page --------------------- */
+
+.main-exp-cont {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+.td-ac {
+    display: none;
+}
+
+/* -------------- Hobbies page --------------------- */
+
+.main-hob-cont {
+    display: block;
+    margin-top: 50px;
+}
+.hob-item>a {
+    font-size: 35px;
+    padding-left: 50px;
+}
+.hob-item>p {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 40px;
+}

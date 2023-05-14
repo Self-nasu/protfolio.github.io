@@ -1,0 +1,26 @@
+/* ------------------------------ HOBBIES PAGE CSS ------------------------------ */
+.ab-nav-hob {
+    list-style: disc;
+    font-size: 28px;
+}
+.ab-nav-hob>a {
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1025px) {
+    .ab-nav-hob {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .ab-nav-hob {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .ab-nav-hob {
+        font-size: 11px;
+    }
+}

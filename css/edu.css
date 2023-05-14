@@ -1,0 +1,26 @@
+/* ------------------------------ EDUCATION PAGE CSS ------------------------------ */
+.ab-nav-edu {
+    list-style: disc;
+    font-size: 28px;
+}
+.ab-nav-edu>a {
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1025px) {
+    .ab-nav-edu {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .ab-nav-edu {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .ab-nav-edu {
+        font-size: 11px;
+    }
+}

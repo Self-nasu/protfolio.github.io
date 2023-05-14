@@ -1,0 +1,98 @@
+.contactme-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+.main-form {
+    background-image: url("https://media.discordapp.net/attachments/1106483006023159879/1106483334000935004/nav.png?width=1000&height=562");
+    padding: 1.7%;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+}
+.form-item {
+    font-weight: 600;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 18px;
+    display: block;
+    padding-bottom: 7px;
+}
+.box {
+    width: 30vw;
+    height: 30px;
+    background: transparent;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    color: white;
+    font-family: 'Roboto';
+}
+.text-box {
+    height: 7vw;
+}
+.submit {
+    font-family: 'Roboto';
+    background: transparent;
+    border-radius: 3px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+.box:focus {
+  background-color: rgba(0, 0, 0, 0.187);
+  border: 2px solid white;
+}
+
+@media only screen and (max-width:1080px) {
+    .box {
+        width: 55vh;
+    }
+    .form-item {
+        font-size: 15px;
+        padding-bottom: 4px;
+    }
+    .submit {
+        padding: 2px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .box {
+        width: 45vh;
+    }
+    .form-item {
+        font-size: 15px;
+        padding-bottom: 4px;
+    }
+    .submit {
+        padding: 2px;
+        font-size: 15px;
+    }
+    .text-box {
+        height: 10vh;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .box {
+        width: 35vh;
+    }
+    .form-item {
+        font-size: 15px;
+        padding-bottom: 4px;
+    }
+    .submit {
+        padding: 2px;
+        font-size: 15px;
+    }
+    .text-box {
+        height: 10vh;
+    }
+}
