@@ -63,6 +63,24 @@
     }
 }
 
+@media only screen and (max-width:769px) {
+    .box {
+        width: 40vh;
+    }
+    .form-item {
+        font-size: 15px;
+        padding-bottom: 4px;
+    }
+    .submit {
+        padding: 2px;
+        font-size: 15px;
+    }
+    .contactme-cont  {
+        margin-top: 7%;
+    }
+}
+
+
 @media only screen and (max-width:375px) {
     .box {
         width: 45vh;
