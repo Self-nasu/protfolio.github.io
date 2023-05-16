@@ -144,50 +144,28 @@
     word-spacing: 2px;
 }
 
-.work-navbar {
-    display: flex;
-    padding-left: 80px;
-    padding-top: 50px;
-}
-
-.wnb-list {
-    color: white;
-    font-size: 30px;
-    list-style-type: square;
-    text-align: left;
-}
-
-.wnb-div {
-    padding-bottom: 20px;
-}
-
-.wnb-div>a[href="work.html"] {
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 30px;
-    letter-spacing: 1px;
-}
-
-.wnb-list>li>a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 30px;
-    letter-spacing: 1px;
-}
-
-.wnb-list>li>a:hover {
-    color: rgb(161, 161, 255);
-}
-
 .my-photo>img {
     height: 430px;
     padding-right: 80px;
 }
-
+.workbuttton {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.butt {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: transparent;
+    margin-right: 20px;
+}
+.butt:hover {
+    background-color: yellow;
+    color: black;
+}
 .my-photo {
     display: flex;
     margin-left: auto;

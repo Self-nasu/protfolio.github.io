@@ -140,41 +140,16 @@
         font-size: 35px;
         word-spacing: 2px;
     }
-
-    .work-navbar {
-        display: flex;
-        padding-top: 50px;
+    .workbuttton {
+        margin-top: 40px;
+        margin-left: 60px;
     }
-
-    .wnb-list {
-        color: white;
-        font-size: 30px;
-        list-style-type: square;
-        text-align: left;
+    .butt {
+        font-size: 18px;
+        border-radius: 12px;
+        padding: 12px;
+        margin-right: 20px;
     }
-
-    .wnb-div>a[href="work.html"] {
-        color: white;
-        text-decoration: none;
-        font-family: 'Roboto';
-        font-weight: bold;
-        font-size: 30px;
-        letter-spacing: 1px;
-    }
-
-    .wnb-list>li>a {
-        color: white;
-        text-decoration: none;
-        font-family: 'Roboto';
-        font-weight: bold;
-        font-size: 30px;
-        letter-spacing: 1px;
-    }
-
-    .wnb-list>li>a:hover {
-        color: rgb(161, 161, 255);
-    }
-
     .my-photo>img {
         height: 420px;
         padding-right: 0px;
@@ -800,10 +775,16 @@
         word-spacing: 2px;
     }
 
-    .work-navbar {
-        display: none;
+    .workbuttton {
+        margin-top: 30px;
+        margin-left: 20px;
     }
-
+    .butt {
+        font-size: 13px;
+        border-radius: 10px;
+        padding: 8px;
+        margin-right: 20px;
+    }
     .my-photo>img {
         height: 340px;
         padding-right: 0px;
@@ -1058,8 +1039,15 @@
         word-spacing: 2px;
     }
 
-    .work-navbar {
-        display: none;
+    .workbuttton {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .butt {
+        font-size: 13px;
+        border-radius: 10px;
+        padding: 8px;
+        margin-right: 20px;
     }
 
     .my-photo>img {
@@ -1316,8 +1304,15 @@
         display: none;
     }
 
-    .work-navbar {
-        display: none;
+    .workbuttton {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .butt {
+        font-size: 13px;
+        border-radius: 10px;
+        padding: 8px;
+        margin-right: 20px;
     }
 
     .my-photo>img {
