@@ -269,7 +269,12 @@
     letter-spacing: 1px;
     text-shadow: 3px 4px 7px rgba(0,0,0,0.19);
 }
-
+.ab-li-f1div {
+    display: flex;
+}
+.ab-li-f2div {
+    display: flex;
+}
 /* other css of introduction,education,software skill,experience,hobbies 
 page are link differntly within them only along with there responsive styles*/
 
