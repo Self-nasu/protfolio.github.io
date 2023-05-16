@@ -1,9 +1,11 @@
 .html {
     background-image: url("https://files.123freevectors.com/wp-content/original/190738-dark-blue-gradient-background.jpg");
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Roboto';
     background-size: cover;
     background-repeat: no;
+    background-blend-mode: screen;
+    background-color: rgb(28, 0, 68);
 }
 
 .body {
@@ -286,14 +288,18 @@ page are link differntly within them only along with there responsive styles*/
     display: flex;
     justify-content: center;
     padding: 80px;
+    padding-bottom: 40px;
 }
 
 .table {
     border-collapse: collapse;
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
 }
-
+.res {
+    color: yellow;
+    text-decoration: underline;
+}
 .th {
     border: solid;
     padding: 18px;
@@ -303,7 +309,6 @@ page are link differntly within them only along with there responsive styles*/
     border: solid;
     padding: 18px;
 }
-
 /* -------------- Tech skills page --------------------- */
 
 .main-tech-cont {
