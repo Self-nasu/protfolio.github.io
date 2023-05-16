@@ -13,6 +13,12 @@
     }
 }
 
+@media only screen and (max-width: 769px) {
+    .ab-nav-tech {
+        font-size: 13px;
+    }
+}
+
 @media only screen and (max-width:426px) {
     .ab-nav-tech {
         font-size: 11px;

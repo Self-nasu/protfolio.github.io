@@ -555,33 +555,38 @@
 
 .ab-nav-list-cont {
     margin-top: 10px;
+    display: block;
+}
+.ab-li-f1div {
+    display: flex;
+}
+.ab-li-f1 {
+    display: block;
+}
+.ab-li-f2div {
+    display: flex;
+    margin-top: 10px;
 }
 .ab-li-div {
     padding-left: 10px;
 }
 .ab-li {
-    font-size: 10px;
+    font-size: 13px;
 }
 .ab-li::marker {
-    font-size: 10px;
-}
-.ab-nav-exp {
-    display: none;
+    font-size: 14px;
 }
 .ab-nav-tech {
-    display: none;
-}
-.ab-nav-tech {
-    padding-left: 0px;
+    padding-left: 10px;
 }
 .ab-nav-exp {
     padding-left: 0px;
 }
 .ab-nav-hob {
-    padding-left: 0px;
+    padding-left: 10px;
 }
 .ab-nav-edu {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .main-intro-cont {
     margin-top: 10px;
@@ -590,10 +595,10 @@
     margin-left: 15px;
 }
 .intro-pre {
-   font-size: 9px;
+   font-size: 12px;
 }
 .intro-imp {
-    font-size: 10px;
+    font-size: 13px;
 }
 .intro-p-cont-3{
     display: none;
@@ -613,6 +618,45 @@
 }
 .td {
     padding: 8px;
+}
+.main-tech-cont {
+    display: inline-block;
+    align-content: center;
+    justify-content: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.tech-sec {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    word-spacing: 3px;
+}
+.blocky-txt {
+    display: block;
+    margin-bottom: 12px;
+}
+.icon-img {
+    width: 35px;
+    padding-left: 22px;
+    padding-top: 3px;
+}
+.la-1 {
+    padding-left: 15px;
+    font-size: 10px;
+    display: none;
+}
+.main-exp-cont {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.td-ac {
+    display: none;
 }
 .main-hob-cont {
     margin-top: 40px;
@@ -831,23 +875,17 @@
 .ab-li::marker {
     font-size: 10px;
 }
-.ab-nav-exp {
-    display: none;
-}
 .ab-nav-tech {
-    display: none;
-}
-.ab-nav-tech {
-    padding-left: 0px;
+    padding-left: 10px;
 }
 .ab-nav-exp {
     padding-left: 0px;
 }
 .ab-nav-hob {
-    padding-left: 0px;
+    padding-left: 10px;
 }
 .ab-nav-edu {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .main-intro-cont {
     margin-top: 10px;
@@ -1095,12 +1133,6 @@
 .ab-li::marker {
     font-size: 10px;
 }
-.ab-nav-exp {
-    display: none;
-}
-.ab-nav-tech {
-    display: none;
-}
 .ab-nav-tech {
     padding-left: 0px;
 }
@@ -1111,7 +1143,7 @@
     padding-left: 0px;
 }
 .ab-nav-edu {
-    padding-left: 15px;
+    padding-left: 8px;
 }
 .main-intro-cont {
     margin-top: 10px;
