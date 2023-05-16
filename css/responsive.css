@@ -595,7 +595,7 @@
     padding: 8px;
 }
 .main-tech-cont {
-    display: inline-block;
+    display: grid;
     align-content: center;
     justify-content: left;
     margin-left: 15px;
@@ -613,6 +613,13 @@
 .blocky-txt {
     display: block;
     margin-bottom: 12px;
+}
+.blocky-txt-sec4 {
+    margin-bottom: 10px;
+}
+.tech-sec-4 {
+    display: block;
+    margin-top: 20px;
 }
 .icon-img {
     width: 35px;
@@ -888,6 +895,15 @@
 }
 .main-edu-cont {
     padding: 10px;
+}
+.my-work-cont {
+    display: block;
+}
+.blocky-txt-sec4 {
+    margin-bottom: 25px;
+}
+.tech-sec-4 {
+    margin-left: 1%;
 }
 .table {
     font-size: 12px;

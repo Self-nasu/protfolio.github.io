@@ -4,8 +4,7 @@
     font-family: 'Roboto';
     background-size: cover;
     background-repeat: no;
-    background-blend-mode: screen;
-    background-color: rgb(28, 0, 68);
+    background-color: rgb(52, 0, 124);
 }
 
 .body {
@@ -335,7 +334,13 @@ page are link differntly within them only along with there responsive styles*/
     padding-left: 20px;
     font-size: 20px;
 }
-
+.tech-sec-4-cont {
+    margin-top: 0.5%;
+    display: contents;
+}
+.tech-sec-4 {
+    margin-left: 1.5%;
+}
 /* -------------- Exp page --------------------- */
 
 .main-exp-cont {
